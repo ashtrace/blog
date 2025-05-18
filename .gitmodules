@@ -1,0 +1,4 @@
+[submodule "ashtrace_blog/public"]
+	path = ashtrace_blog/public
+	url = https://github.com/ashtrace/ashtrace.github.io.git
+	branch = main

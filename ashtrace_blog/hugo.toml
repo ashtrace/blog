@@ -1,0 +1,36 @@
+baseURL = 'https://ashtrace.github.io/'
+languageCode = 'en-us'
+title = 'ashtrace | blog'
+
+theme = 'hugo-ficurinia'
+
+# this will be included in the footer after the current year the site is last
+# built, followed by the (c) symbol
+# you can use markdown inside this field
+copyright = 'Just adhere to [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)'
+
+summaryLength = 60  # number of words for article summaries
+
+[params]
+    author = "Aishwarya Raj"
+    description = "A blog for demonstration purposes"  # this will be added as metadata
+
+    # It's best to put these icons in the "static" folder of your site
+    logo = "/logo.svg"
+    favicon = "/favicon.png"  # 32x32
+    faviconIco = "/favicon.ico"  # 32x32
+    appletouch = "/apple-touch-icon.png"  # 180x180
+    svgicon = "/logo.svg"
+    icon512 = "/icon512.png"  # 512x512 png image
+
+[menu]
+    # these links will be added to the main navigation menu, sorted by weight
+    # other elements in this menu are added automatically from the "pages" folder
+    # the folder it will look into can be customized with the pages variable
+    # in params above
+    # these links (menu.icons) will be added as icon links below the main nav
+    [[menu.icons]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/ashtrace"
+        weight = 10
