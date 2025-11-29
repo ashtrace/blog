@@ -4,11 +4,11 @@ date = 2024-10-05T00:09:08+05:30
 tags = ["ctf", "linux", "pwn", "writeup"]
 +++
 
-I was going through an easy (as per the challenge platform, not personal ranking) pwn challenge. After successfully pwning the binary locally, I ran my exploit against the remote challenge service and failed. Referring to the writeup document I found this:
+I was going through an easy (as per the challenge platform, not personal ranking) pwn challenge. After successfully pwning the binary locally, I ran my exploit against the remote challenge service and failed. Referring to the writeup document I found an explaination that didn't satify my itch.
 
 ![writeup-remote-section](./writeup-remote-section.jpeg)
 
-There was no explanation regarding the value of file-descriptor. Thus I went on a quest to trace for the value.
+There was no explanation regarding why the value of file-descriptor was to be `5`. Thus I went on a quest to trace for it.
 
 > PS: Please bear with me while we fight togther to tally all those numbers :)  (*I tried my best to redact challenge name*)
 
@@ -364,5 +364,4 @@ When **finale** was loaded, it had following file descriptors
 - 4 - pointing to socketpair it (**PID 11**) created
 - 5 - FREE
 
-Thus, 5 was allocated to all subsequent **open()**s                                                                                                                                                             
-
+Thus, 5 was allocated to all subsequent **open()**s
