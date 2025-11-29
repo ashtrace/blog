@@ -8,7 +8,7 @@ sudo apt install hugo
 
 ## Hugo Theme
 
-go to directory `ashtrace_blog/theme` and run `https://gitlab.com/gabmus/hugo-ficurinia.git`
+Go to directory `ashtrace_blog/`, create directory `theme` and run `git clone https://gitlab.com/gabmus/hugo-ficurinia.git`
 
 ## Create a post
 
