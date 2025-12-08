@@ -4,7 +4,7 @@ date = 2024-10-05T00:09:08+05:30
 tags = ["ctf", "linux", "pwn", "writeup"]
 +++
 
-I was going through an easy (as per the challenge platform, not personal ranking) pwn challenge. After successfully pwning the binary locally, I ran my exploit against the remote challenge service and failed. Referring to the writeup document I found an explaination that didn't satify my itch.
+I was going through an easy pwn challenge—easy according to the platform, not my personal ranking. After successfully pwning the binary locally, I ran the same exploit against the remote challenge service and it completely fell apart. I checked the writeup hoping for clarity, but the explanation they gave didn’t really scratch the itch or fully explain why things behaved differently.
 
 ![writeup-remote-section](./writeup-remote-section.jpeg)
 
