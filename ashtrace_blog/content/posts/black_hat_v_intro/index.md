@@ -1289,8 +1289,6 @@ fn main() {
 
 ### JSON
 
-JSON
-
 Because of the ubiquitous nature of JSON, support for it is built directly into V.
 
 V generates code for JSON encoding and decoding. No runtime reflection is used. This results in much better performance.

@@ -1,7 +1,7 @@
 +++
 title = 'AD Homelab 101: Building an Active Directory + XDR homelab in 101 steps'
 date = 2025-05-23T13:40:31+05:30
-tags = ["active directory"]
+tags = ["active directory", "homelab"]
 +++
 
 Fresh off my CRTO exam I itched for a local AD lab to practice red-team stuff. GOAD with the ELK/Wazuh extension is (at the time of writing) the best choice (author’s personal views) for this but I seriously lacked a gigaton of RAM required for 5 (lab) + 1 (extension) VMs, so I went Thanos mode and declared - Fine! I’ll do it myself.

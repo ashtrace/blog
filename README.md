@@ -8,7 +8,7 @@ sudo apt install hugo
 
 ## Hugo Theme
 
-Go to directory `ashtrace_blog/`, create directory `themes` and run `git clone https://gitlab.com/gabmus/hugo-ficurinia.git`
+Go to directory `ashtrace_blog/`, create directory `themes` and run `git clone https://gitlab.com/gabmus/hugo-ficurinia.git` within it.
 
 ## Create a post
 
@@ -19,7 +19,7 @@ hugo new --kind page posts/<folder_name>/index.md
 # eg: hugo new --kind page posts/tracing_file_descriptors/index.md
 ```
 
-## View it localay
+## View it locally
 
 Run
 
